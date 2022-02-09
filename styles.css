@@ -1,8 +1,17 @@
 body {
-    background-color: goldenrod;
+    background-color: wheat;
 }
 
 
+div.steps {
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+/* ul li {
+    color: fuchsia;
+    font-size: larger;
+} */
 
 h1 {
     color: darkgreen;
@@ -22,4 +31,9 @@ table {
 td, th {
     border: 1px solid black;
     padding:  2px;
+}
+
+#firstrecipe {
+    background-color: aliceblue;
+    color: aquamarine;
 }
