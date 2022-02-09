@@ -1,0 +1,25 @@
+body {
+    background-color: goldenrod;
+}
+
+
+
+h1 {
+    color: darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: separate;
+}
+
+td, th {
+    border: 1px solid black;
+    padding:  2px;
+}
