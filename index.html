@@ -11,27 +11,46 @@
         <link href="styles.css" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style> 
-            #recipe {
-                background-color: aliceblue;
+        
+        <style>
+            #toppage {
+                background-color: rgb(116, 167, 211);
                 color: aqua;
                 padding: 40px;
                 text-align: center;
             }
+
         </style>
+
         <title>Duncans recipes</title>
     </head>
     <body>
-        <h1 id="recipe">Duncans recipes</h1>
+        <h1 id="toppage">Duncans recipes</h1>
         This website is meant to easily look up recipes that I use from different cookbooks
-
+s
         <h2>Recipes</h2>
         Here's a couple of links to recipes I frequently use:
-        <ul>
-            <li>Spaghetti Carbonara: <a href="carbonara.html">link here</a></li>
-            <li>Chicken Curry</li>
-            <li id = "third recipe">Tortelnina Ovonu</li>
-            <li id = "fourth recipe">Pizza Salami</li>
-        </ul>
+
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    
+                    <a class ="btn btn-primary"  href="carbonara.html" role="button">Spaghetti Carbonara</a>
+                </div>
+                <div class="column">
+                    <a class ="btn btn-secondary"  href="chicken curry.html" role="button">Chicken curry</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a class ="btn btn-success"  href="goulash.html" role="button">Goulash soup</a>
+                </div>
+                <div class="column">
+                    <a class ="btn btn-danger"  href="pizzasalami.html" role="button">Spaghetti Carbonara</a>
+                </div>
+            </div>
+            <span class="stretch"></span>
+
+        </div>
     </body>
 </html>
