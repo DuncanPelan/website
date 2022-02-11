@@ -1,11 +1,27 @@
-// $font-size = 10px
+$font-family: 'Times New Roman', Times, serif;
+%recipe_font {
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 10px;
+  } 
 
-// ul {
-//     color: brown;
-//     font-size: $font-size;
-// }
+div {
+    font-style: italic;
 
-// ol {
-//     color: chocolate;
-//     font-size: $font-size;
-// }
+    p {
+        color: blue;
+    }
+
+    ul {
+        color: brown;
+        font-size: $font-family;
+        @extend %recipe_font
+    }
+    
+    ol {
+        color: chocolate;
+        font-size: $font-family;
+        @extend %recipe_font;
+    }
+}
