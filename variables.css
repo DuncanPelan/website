@@ -1,0 +1,17 @@
+div ul, div ol {
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 10px; }
+
+div {
+  font-style: italic; }
+  div p {
+    color: blue; }
+  div ul {
+    color: brown;
+    font-size: "Times New Roman", Times, serif; }
+  div ol {
+    color: chocolate;
+    font-size: "Times New Roman", Times, serif; }
+
+/*# sourceMappingURL=variables.css.map */
