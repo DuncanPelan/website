@@ -1,0 +1,3 @@
+# website
+Dit is mijn eigen website voor het vak programmeer platform.
+Er is aan alle basis regels voldaan, als ik meer tijd had zou ik het mooier maken...
